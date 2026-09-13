@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>낱말퍼즐 매거진</title>
+<meta name="description" content="끝말잇기, 십자말풀이, 단어찾기, 글자조합, 초성퀴즈를 한 권에 담은 감성 퍼즐북 앱입니다.">
+<style>
+  :root {
+    --paper: #F6F0E4;
+    --card: #FDFAF3;
+    --border: #E2D8C8;
+    --track: #EFE5D3;
+    --ink: #3B2F2A;
+    --ink-soft: #5C4E46;
+    --ink-faint: #8A7A70;
+    --accent: #D9663C;
+    --accent-deep: #8A3F22;
+    --accent-soft: #F4E3CF;
+    --green: #6E8B5E;
+    --sand: #E9B98F;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+                 "Noto Sans KR", "Malgun Gothic", sans-serif;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* 종이 질감 — 앱과 같은 결 */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    opacity: .5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.35 0 0 0 0 0.25 0 0 0 0 0.15 0 0 0 0.10 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 22px; position: relative; }
+
+  /* 표지 */
+  header {
+    padding: 62px 0 38px;
+  }
+  .issue {
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: var(--ink-faint);
+    margin-bottom: 6px;
+  }
+  h1 {
+    font-family: "Apple SD Gothic Neo", "Noto Serif KR", serif;
+    font-weight: 700;
+    font-size: clamp(36px, 7vw, 52px);
+    line-height: 1.1;
+    margin: 0 0 10px;
+    letter-spacing: -0.02em;
+  }
+  .tagline {
+    font-size: clamp(15px, 2.6vw, 18px);
+    color: var(--accent);
+    margin: 0 0 6px;
+  }
+  .sub {
+    color: var(--ink-faint);
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .rule {
+    height: 1px;
+    background: var(--border);
+    margin: 0;
+    border: 0;
+  }
+
+  section { padding: 38px 0; }
+  h2 {
+    font-family: "Apple SD Gothic Neo", "Noto Serif KR", serif;
+    font-size: 21px;
+    margin: 0 0 4px;
+    letter-spacing: -0.01em;
+  }
+  .section-note {
+    color: var(--ink-faint);
+    font-size: 13px;
+    margin: 0 0 20px;
+  }
+
+  /* 퍼즐 목록 */
+  .puzzles { display: grid; gap: 10px; }
+  .puzzle {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 15px 17px;
+  }
+  .badge {
+    flex: 0 0 40px;
+    height: 40px;
+    border-radius: 12px;
+    background: var(--accent-soft);
+    color: var(--accent-deep);
+    display: grid;
+    place-items: center;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Apple SD Gothic Neo", serif;
+  }
+  .puzzle b { display: block; font-size: 15px; margin-bottom: 2px; }
+  .puzzle span { font-size: 13px; color: var(--ink-faint); }
+
+  /* 특징 */
+  .points { display: grid; gap: 9px; padding: 0; margin: 0; list-style: none; }
+  .points li {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 12px;
+    padding: 13px 16px;
+    font-size: 14px;
+  }
+  .points b { color: var(--accent-deep); }
+
+  /* 출처 */
+  .sources { display: grid; gap: 10px; }
+  .source {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 14px 16px;
+  }
+  .source b { font-size: 14px; }
+  .source p { margin: 4px 0 8px; font-size: 13px; color: var(--ink-soft); }
+  .license {
+    display: inline-block;
+    background: var(--accent-soft);
+    color: var(--accent-deep);
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 9px;
+    border-radius: 999px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { color: var(--accent-deep); text-decoration: underline; }
+
+  /* 방침 */
+  .policy {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 6px 22px 20px;
+  }
+  .policy h3 {
+    font-size: 15px;
+    margin: 20px 0 6px;
+  }
+  .policy p, .policy li { font-size: 14px; color: var(--ink-soft); }
+  .policy ul { padding-left: 18px; margin: 6px 0; }
+  .callout {
+    background: var(--track);
+    border-radius: 12px;
+    padding: 13px 16px;
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-top: 16px;
+  }
+
+  /* 문의 */
+  .contact {
+    background: var(--ink);
+    color: var(--card);
+    border-radius: 18px;
+    padding: 24px 24px 26px;
+  }
+  .contact h2 { color: var(--card); }
+  .contact p { color: var(--sand); font-size: 14px; margin: 0 0 14px; }
+  .mail {
+    display: inline-block;
+    background: #F5D9A8;
+    color: var(--ink);
+    font-weight: 700;
+    font-size: 15px;
+    padding: 11px 20px;
+    border-radius: 999px;
+  }
+  .mail:hover { color: var(--ink); text-decoration: none; opacity: .9; }
+
+  footer {
+    padding: 30px 0 46px;
+    text-align: center;
+    color: var(--ink-faint);
+    font-size: 12px;
+  }
+  .updated { color: #B8A99A; font-size: 11px; margin-top: 6px; }
+
+  @media (prefers-color-scheme: dark) {
+    /* 라이트 고정 — 앱과 같은 종이 톤을 유지한다 */
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="issue">NATMAL PUZZLE MAGAZINE</div>
+    <h1>낱말퍼즐 매거진</h1>
+    <p class="tagline">손 안의 감성 퍼즐북 한 권</p>
+    <p class="sub">끝말잇기 · 십자말풀이 · 단어찾기 · 글자조합 · 초성퀴즈를 한 앱에서</p>
+  </header>
+
+  <hr class="rule">
+
+  <section>
+    <h2>다섯 가지 낱말 퍼즐</h2>
+    <p class="section-note">난이도는 쉬움 · 보통 · 어려움 중에 언제든 고를 수 있습니다.</p>
+
+    <div class="puzzles">
+      <div class="puzzle">
+        <div class="badge">찾</div>
+        <div>
+          <b>단어찾기</b>
+          <span>글자판에 숨은 말을 네 방향(→ ↓ ↘ ↗)으로 찾습니다</span>
+        </div>
+      </div>
+      <div class="puzzle">
+        <div class="badge">가</div>
+        <div>
+          <b>십자말풀이</b>
+          <span>가로세로 힌트를 읽고 칸을 채웁니다</span>
+        </div>
+      </div>
+      <div class="puzzle">
+        <div class="badge">잇</div>
+        <div>
+          <b>끝말잇기</b>
+          <span>책방지기와 번갈아 말을 잇습니다. 뒷글자만 입력하면 됩니다</span>
+        </div>
+      </div>
+      <div class="puzzle">
+        <div class="badge">방</div>
+        <div>
+          <b>글자조합</b>
+          <span>주어진 글자로 만들 수 있는 말이면 무엇이든 인정됩니다</span>
+        </div>
+      </div>
+      <div class="puzzle">
+        <div class="badge">ㄱㄴ</div>
+        <div>
+          <b>초성퀴즈</b>
+          <span>초성과 뜻풀이를 보고 단어를 맞힙니다</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section>
+    <h2>이런 점을 신경 썼습니다</h2>
+    <p class="section-note">퍼즐을 만드는 단계에서 지킨 원칙입니다.</p>
+
+    <ul class="points">
+      <li><b>거슬리는 말은 넣지 않았습니다.</b>
+          정답뿐 아니라 글자판에서 우연히 읽히는 조합까지 모든 방향을 검사해,
+          하나라도 걸리면 그 판을 버리고 다시 만듭니다.</li>
+      <li><b>한 판에 같은 말은 한 번만 나옵니다.</b>
+          단어찾기에서 같은 말이 두 군데 보여 헷갈리는 일이 없습니다.</li>
+      <li><b>인터넷이 없어도 됩니다.</b>
+          퍼즐과 사전이 모두 앱 안에 들어 있어 지하철에서도 그대로 열립니다.</li>
+      <li><b>풀고 나면 남는 게 있습니다.</b>
+          단어의 뜻과 유래를 읽고, 마음에 드는 말은 단어장에 담아 둘 수 있습니다.</li>
+      <li><b>이달의 시사 용어.</b>
+          뉴스에서 자주 만나는 말을 하루 두 개씩 열어 둡니다.
+          영어에서 온 말은 발음이 아니라 원어로 적습니다.</li>
+    </ul>
+  </section>
+
+  <hr class="rule">
+
+  <section id="sources">
+    <h2>자료 출처</h2>
+    <p class="section-note">이 앱이 기대고 있는 사전과 해설의 출처를 밝힙니다.</p>
+
+    <div class="sources">
+      <div class="source">
+        <b>위키낱말사전</b>
+        <p>십자말풀이 힌트와 초성퀴즈에 쓰는 뜻풀이의 출처입니다.</p>
+        <span class="license">CC BY-SA 4.0 — 영리 목적 이용 허용</span>
+        &nbsp;<a href="https://ko.wiktionary.org/" target="_blank" rel="noopener">바로가기 ↗</a>
+      </div>
+
+      <div class="source">
+        <b>한국어 위키백과</b>
+        <p>시사 용어의 ‘더 읽기’ 링크가 가리키는 곳입니다. 앱에 실린 요약문은 직접 작성했습니다.</p>
+        <span class="license">CC BY-SA 4.0 — 영리 목적 이용 허용</span>
+        &nbsp;<a href="https://ko.wikipedia.org/" target="_blank" rel="noopener">바로가기 ↗</a>
+      </div>
+
+      <div class="source">
+        <b>낱말 목록</b>
+        <p>끝말잇기와 글자조합에서 입력한 말이 사전에 있는지 확인하는 데 쓰는
+           표제어 목록입니다. 뜻풀이는 담고 있지 않습니다.</p>
+        <span class="license">공개 저장소 korean_wordlist</span>
+      </div>
+
+      <div class="source">
+        <b>단어장 해설과 유래</b>
+        <p>결과 화면과 단어장에 나오는 뜻 · 유래 · 예문은 모두 직접 썼습니다.</p>
+        <span class="license">자체 제작</span>
+      </div>
+    </div>
+
+    <div class="callout">
+      CC BY-SA 라이선스에 따라, 위 자료로 만든 사전 파일도 같은 조건으로 배포됩니다.
+      앱 안에서도 설정 &gt; 자료 출처에서 같은 내용을 확인할 수 있습니다.
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section id="privacy">
+    <h2>개인정보처리방침</h2>
+    <p class="section-note">한 줄로 줄이면 — 모으는 개인정보가 없습니다.</p>
+
+    <div class="policy">
+      <h3>수집하는 개인정보</h3>
+      <p>없습니다. 이 앱은 회원 가입이나 로그인을 요구하지 않으며,
+         이름 · 연락처 · 위치 등 어떤 개인정보도 수집하지 않습니다.</p>
+
+      <h3>기기에 저장되는 정보</h3>
+      <p>아래 정보는 이용자의 기기 안에만 저장되며 외부로 전송되지 않습니다.</p>
+      <ul>
+        <li>퍼즐 진행도와 난이도별 기록</li>
+        <li>단어장에 담은 단어</li>
+        <li>연속 플레이 일수, 설정값</li>
+      </ul>
+      <p>앱을 삭제하면 이 정보도 함께 사라집니다.</p>
+
+      <h3>제3자 제공</h3>
+      <p>수집하는 정보가 없으므로 제3자에게 제공하는 정보도 없습니다.</p>
+
+      <h3>네트워크 사용</h3>
+      <p>퍼즐과 사전이 모두 앱에 내장되어 있어 인터넷 없이 동작합니다.
+         시사 용어의 ‘더 읽기’를 눌렀을 때만 외부 브라우저로 위키백과가 열립니다.</p>
+
+      <h3>아동의 개인정보</h3>
+      <p>수집하는 개인정보가 없으므로 연령과 무관하게 안전하게 이용할 수 있습니다.</p>
+
+      <div class="callout">
+        <b>앞으로 바뀔 수 있는 부분:</b> 광고나 구매 기능이 추가되면
+        광고 식별자 등 수집 항목이 생깁니다. 그때는 이 방침을 먼저 갱신하고
+        앱 안에서도 안내하겠습니다.
+      </div>
+    </div>
+  </section>
+
+  <hr class="rule">
+
+  <section>
+    <div class="contact">
+      <h2>문의</h2>
+      <p>오류 제보, 단어 정정 요청, 그 밖의 문의를 받습니다.</p>
+      <a class="mail" href="mailto:allenst486db+wordpuzzle@gmail.com">allenst486db+wordpuzzle@gmail.com</a>
+    </div>
+  </section>
+
+  <footer>
+    낱말퍼즐 매거진 · 대한민국 App Store<br>
+    <span class="updated">최종 수정 2026년 9월</span>
+  </footer>
+
+</div>
+</body>
+</html>
