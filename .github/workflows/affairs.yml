@@ -1,0 +1,49 @@
+name: Affairs
+
+# 낱말퍼즐 매거진 앱이 받는 그날의 시사 용어(affairs/YYYY-MM.json)를 채운다(2026-09-23).
+# 원본은 뉴스 브리핑 저장소의 App Terms 작업(오전 7시 40분 전에 끝남). 앱은 오전 8시(KST)에 그날 용어를 연다.
+# KST 07:48 · 07:58 · 08:30 = UTC 22:48 · 22:58 · 23:30 (전날) — 예약 실행이 늦거나 빠져도 뒤 회차가 잇는다.
+# 이미 그날 다섯 개가 있으면 아무것도 바꾸지 않는다. 고르는 규칙은 .github/affairs/publish.py.
+on:
+  schedule:
+    - cron: '48 22 * * *'
+    - cron: '58 22 * * *'
+    - cron: '30 23 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'KST 날짜 YYYY-MM-DD — 비우면 오늘'
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: affairs
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Publish today's terms
+        env:
+          INPUT_DATE: ${{ inputs.date }}
+        run: |
+          if [ -n "$INPUT_DATE" ]; then python .github/affairs/publish.py --date "$INPUT_DATE"; else python .github/affairs/publish.py; fi | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit
+        run: |
+          if [ -z "$(git status --porcelain affairs/)" ]; then echo "바뀐 것 없음"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add affairs/
+          git commit -m "시사 용어 $(TZ=Asia/Seoul date +%F)"
+          git push
