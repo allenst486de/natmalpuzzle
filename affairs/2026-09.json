@@ -1,0 +1,53 @@
+{
+ "version": 1,
+ "month": "2026-09",
+ "days": {
+  "2026-09-24": [
+   {
+    "term": "MDL",
+    "reading": "군사분계선",
+    "summary": "MDL은 군사분계선(Military Demarcation Line)의 줄임말로, 정전 협정에 따라 남북한을 가르는 군사적 경계선을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/군사분계선",
+    "category": "politics",
+    "categoryName": "정치"
+   },
+   {
+    "term": "프롬프트 인젝션",
+    "reading": "",
+    "summary": "언어 모델 등 인공지능에 악의적인 지시가 담긴 입력을 넣어 원래의 명령을 무시하거나 의도하지 않은 동작을 유도하는 공격 기법을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/프롬프트_인젝션",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "인류세",
+    "reading": "",
+    "summary": "인간의 활동이 지구의 지질과 생태계에 결정적인 영향을 미치는 시대를 뜻하는 지질학적 시대 구분 개념이다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/인류세",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "팹",
+    "reading": "",
+    "summary": "팹(fab)은 반도체 칩을 생산하는 공장을 뜻하며, 다른 회사의 의뢰를 받아 칩을 대신 만들어 주는 파운드리 기업을 가리키는 말로도 쓰인다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/파운드리",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "벤처캐피털",
+    "reading": "",
+    "summary": "초기 스타트업에 투자하여 지분을 취득하고 성장 지원을 하는 투자 형태를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/벤처_캐피털",
+    "category": "it",
+    "categoryName": "IT"
+   }
+  ]
+ }
+}
