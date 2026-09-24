@@ -40,8 +40,14 @@ jobs:
       - name: Publish today's terms
         env:
           INPUT_DATE: ${{ inputs.date }}
+        # pipefail — 스크립트가 죽으면 tee 뒤에 숨지 않고 이 단계가 실패로 끝난다(실패하면 GitHub 가 메일로 알린다)
         run: |
+          set -o pipefail
           if [ -n "$INPUT_DATE" ]; then python .github/affairs/publish.py --date "$INPUT_DATE"; else python .github/affairs/publish.py; fi | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Check files the app reads
+        # 앱이 읽는 모양(version·month·날짜·표제·뜻풀이)이 맞는지 — 어긋나면 올리지 않고 실패로 끝낸다
+        run: python .github/affairs/publish.py --check
 
       - name: Commit
         run: |
@@ -50,4 +56,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add affairs/
           git commit -m "시사 용어 $(TZ=Asia/Seoul date +%F)"
-          git push
+          # 그사이 다른 커밋이 올라왔으면 위에 얹어 다시 민다(세 번까지)
+          for try in 1 2 3; do git push && exit 0; git pull --rebase origin main; done
+          exit 1

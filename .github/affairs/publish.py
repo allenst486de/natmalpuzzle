@@ -70,6 +70,8 @@ def pick(raw, day):
     seen = earlier_terms(day)
     chosen, skipped = [], []
     for t in raw:
+        if not isinstance(t, dict):   # 원본 모양이 어긋나도 죽지 않고 그 항목만 넘긴다
+            continue
         term, meaning = (t.get("term") or "").strip(), (t.get("meaning") or t.get("summary") or "").strip()
         reason = None
         if not term or not meaning or not t.get("category") or not t.get("categoryName") or not t.get("url"):
@@ -93,7 +95,10 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--date")
     parser.add_argument("--source")
+    parser.add_argument("--check", action="store_true", help="affairs/*.json 이 앱이 읽는 모양인지만 확인")
     args = parser.parse_args()
+    if args.check:
+        sys.exit(check())
     today = datetime.now(KST).date()
     if args.date:
         day = date.fromisoformat(args.date)
@@ -108,6 +113,38 @@ def main():
         day = today - timedelta(days=back)
         if day >= FIRST_DAY:
             publish(day, None)
+
+
+def check():
+    """앱(AffairsFeed)이 읽는 모양인지 — 틀린 곳을 적고 개수를 돌려준다(0이면 통과)"""
+    problems = []
+    for path in sorted(OUT.glob("*.json")):
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except ValueError as error:
+            problems.append(f"{path.name}: JSON 아님 — {error}")
+            continue
+        month = path.stem
+        if data.get("version") != 1 or data.get("month") != month or not isinstance(data.get("days"), dict):
+            problems.append(f"{path.name}: version·month·days 모양이 틀림")
+            continue
+        for key, terms in data["days"].items():
+            try:
+                ok = key.startswith(month + "-") and len(key) == 10 and date.fromisoformat(key)
+            except ValueError:
+                ok = False
+            if not ok:
+                problems.append(f"{path.name}: 날짜 '{key}'")
+            if not isinstance(terms, list) or not 1 <= len(terms) <= 10:
+                problems.append(f"{path.name} {key}: 용어 개수 {len(terms) if isinstance(terms, list) else '?'}")
+                continue
+            for t in terms:
+                if not isinstance(t, dict) or not str(t.get("term", "")).strip() or not str(t.get("summary", "")).strip():
+                    problems.append(f"{path.name} {key}: 표제·뜻풀이 빠진 용어")
+    for line in problems:
+        print("문제:", line)
+    print(f"확인: 파일 {len(list(OUT.glob('*.json')))}개, 문제 {len(problems)}개")
+    return 1 if problems else 0
 
 
 def publish(day, source):
@@ -129,6 +166,9 @@ def publish(day, source):
             print(f"{day}: 원본을 받지 못했습니다 — {error}")
             return
     raw = raw.get("terms", []) if isinstance(raw, dict) else raw
+    if not isinstance(raw, list):
+        print(f"{day}: 원본 모양이 달라 건너뜁니다")
+        return
 
     chosen, skipped = pick(raw, day)
     if skipped:
@@ -139,7 +179,10 @@ def publish(day, source):
     data["days"][day.isoformat()] = chosen
     data["days"] = dict(sorted(data["days"].items()))
     OUT.mkdir(exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    # 다 쓴 뒤 바꿔 끼운다 — 도중에 멈춰도 반쯤 쓴 파일이 남지 않게
+    temp = path.with_suffix(".tmp")
+    temp.write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    temp.replace(path)
     print(f"{day}: {len(chosen)}개 — {', '.join(c['term'] for c in chosen)}")
 
 
