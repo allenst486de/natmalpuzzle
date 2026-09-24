@@ -48,6 +48,53 @@
     "category": "it",
     "categoryName": "IT"
    }
+  ],
+  "2026-09-25": [
+   {
+    "term": "불가항력",
+    "reading": "",
+    "summary": "사람의 힘으로는 어찌할 수 없는 불가피한 상황이나 외부의 강한 힘을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/불가항력",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "PER",
+    "reading": "주가수익비율",
+    "summary": "Price Earnings Ratio의 약자로, 주가를 주당순이익으로 나눈 값이며 주식의 가치 평가 지표로 쓰인다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/주가수익률",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "Distillation",
+    "reading": "증류",
+    "summary": "액체 혼합물을 가열하여 끓는점 차이를 이용해 성분을 분리하는 화학적 공정을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/증류",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "Made in Europe",
+    "reading": "메이드 인 유럽",
+    "summary": "제품이 유럽에서 제조되었음을 나타내는 원산지 표시를 말한다. 유럽산 제품의 품질과 정체성을 강조하는 데 쓰인다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/Made_in_Europe",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "조선민주주의인민공화국",
+    "reading": "",
+    "summary": "아시아 동부 한반도 북부에 있는 나라로, 수도는 평양이다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/조선민주주의인민공화국",
+    "category": "world",
+    "categoryName": "국제"
+   }
   ]
  }
 }
