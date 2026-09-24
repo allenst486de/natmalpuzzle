@@ -2,17 +2,19 @@ name: Affairs
 
 # 낱말퍼즐 매거진 앱이 받는 그날의 시사 용어(affairs/YYYY-MM.json)를 채운다(2026-09-23).
 # 원본은 뉴스 브리핑 저장소의 App Terms 작업(오전 7시 40분 전에 끝남). 앱은 오전 8시(KST)에 그날 용어를 연다.
-# KST 07:48 · 07:58 · 08:30 = UTC 22:48 · 22:58 · 23:30 (전날) — 예약 실행이 늦거나 빠져도 뒤 회차가 잇는다.
-# 이미 그날 다섯 개가 있으면 아무것도 바꾸지 않는다. 고르는 규칙은 .github/affairs/publish.py.
+# KST 07:48 · 07:58, 그 뒤 08:48~12:48 매시간 = UTC 22:48 · 22:58 · 23:48 · 00:48~03:48.
+# GitHub 예약 실행은 한두 시간씩 늦거나 빠지기도 한다(2026-09-24 첫날: 07:48 회차가 09:55에 돎) — 뒤 회차가 잇고,
+# 날짜 없이 돌리면 오늘과 지난 이틀 중 빈 날도 채운다. 이미 그날 다섯 개가 있으면 아무것도 바꾸지 않는다.
+# 고르는 규칙은 .github/affairs/publish.py.
 on:
   schedule:
     - cron: '48 22 * * *'
     - cron: '58 22 * * *'
-    - cron: '30 23 * * *'
+    - cron: '48 23,0,1,2,3 * * *'
   workflow_dispatch:
     inputs:
       date:
-        description: 'KST 날짜 YYYY-MM-DD — 비우면 오늘'
+        description: 'KST 날짜 YYYY-MM-DD — 비우면 오늘과 지난 이틀 중 빈 날'
         required: false
 
 permissions:

@@ -9,8 +9,9 @@
     · 금칙어가 없는 것 — 목록은 해시(banned.json)로만 둔다(원문은 앱 소스에만)
     · 최근 12개월 안에 앱에 실렸거나(bundled.json) 이미 올린 용어가 아닌 것
 오늘(KST)보다 뒤 날짜는 올리지 않는다. 이미 다섯 개가 있으면 그대로 둔다(한 번 연 용어가 바뀌지 않게).
+날짜를 안 주면 오늘과 지난 이틀 중 빈 날을 채운다(예약 실행이 늦거나 빠진 날 보충).
 
-    python .github/affairs/publish.py                 # 오늘(KST)
+    python .github/affairs/publish.py                 # 오늘(KST) + 지난 이틀 중 빈 날
     python .github/affairs/publish.py --date 2026-09-24
     python .github/affairs/publish.py --source 파일.json --date 2026-09-24   # 원본을 파일로(시험용)
 """
@@ -31,6 +32,8 @@ PER_DAY = 5
 # 받기 기능을 넣은 날(2026-09-23)까지는 앱에 실린 9월호 용어가 이미 열렸다 — 그 뒤 날짜부터 올린다.
 # 9/24~9/30 은 앱에 미리 쓴 용어가 있지만 받은 용어(그날 실제 뉴스)가 같은 날짜를 덮는다
 FIRST_DAY = date(2026, 9, 24)
+# 날짜를 안 주고 돌리면 오늘과 지난 이틀까지 빈 날을 채운다
+BACKFILL_DAYS = 2
 SOURCE = "https://raw.githubusercontent.com/allenst486de/news_briefing_system/main/data/app_terms/{y}/{md}.json"
 
 BANNED = json.loads((HERE / "banned.json").read_text(encoding="utf-8"))
@@ -92,12 +95,22 @@ def main():
     parser.add_argument("--source")
     args = parser.parse_args()
     today = datetime.now(KST).date()
-    day = date.fromisoformat(args.date) if args.date else today
-    if day > today:
-        sys.exit(f"{day}: 오늘({today})보다 뒤 날짜는 올리지 않습니다")
-    if day < FIRST_DAY:
-        sys.exit(f"{day}: {FIRST_DAY} 전 날짜는 앱에 실린 용어로 이미 열렸습니다 — 바꾸지 않습니다")
+    if args.date:
+        day = date.fromisoformat(args.date)
+        if day > today:
+            sys.exit(f"{day}: 오늘({today})보다 뒤 날짜는 올리지 않습니다")
+        if day < FIRST_DAY:
+            sys.exit(f"{day}: {FIRST_DAY} 전 날짜는 앱에 실린 용어로 이미 열렸습니다 — 바꾸지 않습니다")
+        publish(day, args.source)
+        return
+    # 날짜를 안 주면 오늘과 지난 이틀 중 빈 날을 채운다 — GitHub 예약 실행이 늦거나 빠진 날을 다음 회차가 메운다(2026-09-24)
+    for back in (BACKFILL_DAYS, 1, 0):
+        day = today - timedelta(days=back)
+        if day >= FIRST_DAY:
+            publish(day, None)
 
+
+def publish(day, source):
     month = day.isoformat()[:7]
     path = OUT / f"{month}.json"
     data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {"version": 1, "month": month, "days": {}}
@@ -105,8 +118,8 @@ def main():
         print(f"{day}: 이미 {PER_DAY}개 — 그대로 둡니다")
         return
 
-    if args.source:
-        raw = json.loads(Path(args.source).read_text(encoding="utf-8"))
+    if source:
+        raw = json.loads(Path(source).read_text(encoding="utf-8"))
     else:
         url = SOURCE.format(y=day.year, md=day.strftime("%m-%d"))
         try:
