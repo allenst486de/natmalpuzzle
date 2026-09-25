@@ -95,6 +95,53 @@
     "category": "politics",
     "categoryName": "정치"
    }
+  ],
+  "2026-09-26": [
+   {
+    "term": "비무장지대",
+    "reading": "",
+    "summary": "군사적 충돌을 방지하기 위해 적대 관계에 있는 양측 군대가 서로 일정 거리 이상 떨어져 배치되는 완충 지대를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/비무장_지대",
+    "category": "politics",
+    "categoryName": "정치"
+   },
+   {
+    "term": "블랙리스트",
+    "reading": "",
+    "summary": "특정 서비스나 시스템의 이용을 제한하거나 차단하기 위해 관리자가 지정한 대상의 목록을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/블랙리스트",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "정상회담",
+    "reading": "",
+    "summary": "국가의 정상들이 만나 외교·안보·경제 등 주요 현안을 논의하는 회담을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/정상회담",
+    "category": "politics",
+    "categoryName": "정치"
+   },
+   {
+    "term": "대상포진",
+    "reading": "",
+    "summary": "수두를 일으키는 바이러스가 몸속에 남았다가 재활성화되어 신경을 따라 띠 모양의 물집과 통증이 생기는 피부 질환을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/대상포진",
+    "category": "life",
+    "categoryName": "생활"
+   },
+   {
+    "term": "출연연",
+    "reading": "",
+    "summary": "정부가 출연금을 지원해 설립·운영하는 연구기관을 줄여 이르는 말로, 과학기술 분야의 공공 연구를 수행한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/정부출연연구기관",
+    "category": "science",
+    "categoryName": "과학"
+   }
   ]
  }
 }
