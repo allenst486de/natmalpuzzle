@@ -78,22 +78,22 @@
     "categoryName": "과학"
    },
    {
-    "term": "Made in Europe",
-    "reading": "메이드 인 유럽",
-    "summary": "제품이 유럽에서 제조되었음을 나타내는 원산지 표시를 말한다. 유럽산 제품의 품질과 정체성을 강조하는 데 쓰인다.",
+    "term": "갑상선수질암",
+    "reading": "",
+    "summary": "갑상선의 부여포 세포에서 발생하는 암으로, 칼시토닌을 분비하는 세포에서 생기는 갑상선 암을 뜻한다.",
     "source": "위키백과",
-    "url": "https://ko.wikipedia.org/wiki/Made_in_Europe",
-    "category": "economy",
-    "categoryName": "경제"
+    "url": "https://ko.wikipedia.org/wiki/갑상샘수질암",
+    "category": "life",
+    "categoryName": "생활"
    },
    {
-    "term": "조선민주주의인민공화국",
+    "term": "북한 비핵화",
     "reading": "",
-    "summary": "아시아 동부 한반도 북부에 있는 나라로, 수도는 평양이다.",
+    "summary": "조선민주주의인민공화국이 핵무기와 핵 개발 프로그램을 포기하고 없애는 것을 말한다.",
     "source": "위키백과",
-    "url": "https://ko.wikipedia.org/wiki/조선민주주의인민공화국",
-    "category": "world",
-    "categoryName": "국제"
+    "url": "https://ko.wikipedia.org/wiki/조선민주주의인민공화국의_비핵화",
+    "category": "politics",
+    "categoryName": "정치"
    }
   ]
  }
