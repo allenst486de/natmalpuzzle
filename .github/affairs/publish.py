@@ -10,6 +10,8 @@
     · 최근 12개월 안에 앱에 실렸거나(bundled.json) 이미 올린 용어가 아닌 것
 오늘(KST)보다 뒤 날짜는 올리지 않는다. 이미 다섯 개가 있으면 그대로 둔다(한 번 연 용어가 바뀌지 않게).
 날짜를 안 주면 오늘과 지난 이틀 중 빈 날을 채운다(예약 실행이 늦거나 빠진 날 보충).
+그날 원본으로 다섯 개가 안 되면 지난 이틀치 원본의 남은 용어(비축분)로 채운다 — 단 오늘은 KST 07:30 이후에만
+(새벽에는 뉴스 쪽이 아직 채우는 중일 수 있어 기다린다. 2026-09-25 사용자 결정).
 
     python .github/affairs/publish.py                 # 오늘(KST) + 지난 이틀 중 빈 날
     python .github/affairs/publish.py --date 2026-09-24
@@ -34,6 +36,9 @@ PER_DAY = 5
 FIRST_DAY = date(2026, 9, 24)
 # 날짜를 안 주고 돌리면 오늘과 지난 이틀까지 빈 날을 채운다
 BACKFILL_DAYS = 2
+# 비축분 — 그날 원본으로 다섯 개가 안 될 때 지난 며칠치 원본에서 남은 용어를 끌어 쓴다. 오늘 몫은 이 시각 이후에만
+STOCK_DAYS = 2
+STOCK_AFTER = (7, 30)
 SOURCE = "https://raw.githubusercontent.com/allenst486de/news_briefing_system/main/data/app_terms/{y}/{md}.json"
 
 BANNED = json.loads((HERE / "banned.json").read_text(encoding="utf-8"))
@@ -66,8 +71,9 @@ def earlier_terms(day):
     return seen
 
 
-def pick(raw, day):
-    seen = earlier_terms(day)
+def pick(raw, day, taken=()):
+    """taken — 이미 고른 용어(비축분으로 채울 때 겹치지 않게)"""
+    seen = earlier_terms(day) | {t["term"] for t in taken}
     chosen, skipped = [], []
     for t in raw:
         if not isinstance(t, dict):   # 원본 모양이 어긋나도 죽지 않고 그 항목만 넘긴다
@@ -86,7 +92,7 @@ def pick(raw, day):
         chosen.append({"term": term, "reading": (t.get("reading") or "").strip(), "summary": meaning,
                        "source": "위키백과", "url": t["url"], "category": t["category"],
                        "categoryName": t["categoryName"]})
-        if len(chosen) == PER_DAY:
+        if len(chosen) + len(taken) >= PER_DAY:
             break
     return chosen, skipped
 
@@ -147,6 +153,25 @@ def check():
     return 1 if problems else 0
 
 
+def fetch(day):
+    """그날 뉴스 원본 용어 목록 — 없거나 모양이 어긋나면 None"""
+    url = SOURCE.format(y=day.year, md=day.strftime("%m-%d"))
+    try:
+        with urllib.request.urlopen(url, timeout=20) as response:
+            raw = json.loads(response.read().decode("utf-8"))
+    except Exception as error:   # 아직 안 채워졌으면 다음 회차가 잇는다
+        print(f"{day}: 원본을 받지 못했습니다 — {error}")
+        return None
+    raw = raw.get("terms", []) if isinstance(raw, dict) else raw
+    return raw if isinstance(raw, list) else None
+
+
+def stock_allowed(day):
+    """비축분을 써도 되나 — 지난 날짜 보충이거나, 오늘이면 KST 07:30 이후"""
+    now = datetime.now(KST)
+    return day < now.date() or (now.hour, now.minute) >= STOCK_AFTER
+
+
 def publish(day, source):
     month = day.isoformat()[:7]
     path = OUT / f"{month}.json"
@@ -157,20 +182,28 @@ def publish(day, source):
 
     if source:
         raw = json.loads(Path(source).read_text(encoding="utf-8"))
+        raw = raw.get("terms", []) if isinstance(raw, dict) else raw
     else:
-        url = SOURCE.format(y=day.year, md=day.strftime("%m-%d"))
-        try:
-            with urllib.request.urlopen(url, timeout=20) as response:
-                raw = json.loads(response.read().decode("utf-8"))
-        except Exception as error:   # 아직 안 채워졌으면 다음 회차가 잇는다
-            print(f"{day}: 원본을 받지 못했습니다 — {error}")
-            return
-    raw = raw.get("terms", []) if isinstance(raw, dict) else raw
+        raw = fetch(day)
     if not isinstance(raw, list):
-        print(f"{day}: 원본 모양이 달라 건너뜁니다")
-        return
+        return   # 그날 원본이 아직 없다 — 비축분으로 통째로 채우지 않는다(그날 뉴스가 곧 올 수 있다)
 
     chosen, skipped = pick(raw, day)
+    if len(chosen) < PER_DAY and not source:
+        if stock_allowed(day):
+            # 지난 이틀치 원본에서 아직 안 낸 용어로 채운다(가까운 날부터)
+            for back in range(1, STOCK_DAYS + 1):
+                if len(chosen) >= PER_DAY:
+                    break
+                extra_raw = fetch(day - timedelta(days=back)) or []
+                extra, _ = pick(extra_raw, day, taken=chosen)
+                if extra:
+                    extra = extra[:PER_DAY - len(chosen)]
+                    chosen += extra
+                    print(f"{day}: 비축분({day - timedelta(days=back)})에서 {len(extra)}개 채움 — {', '.join(t['term'] for t in extra)}")
+        else:
+            print(f"{day}: 원본에서 {len(chosen)}개뿐 — 07:30 이후 회차에서 비축분으로 채웁니다")
+            return
     if skipped:
         print("뺀 것:", ", ".join(skipped))
     if not chosen:
