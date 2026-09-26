@@ -142,6 +142,53 @@
     "category": "science",
     "categoryName": "과학"
    }
+  ],
+  "2026-09-27": [
+   {
+    "term": "군사정전위원회",
+    "reading": "",
+    "summary": "정전 협정의 준수 여부를 감독하고 위반 사항을 처리하기 위해 설치된 기구를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/유엔군사령부_군사정전위원회",
+    "category": "politics",
+    "categoryName": "정치"
+   },
+   {
+    "term": "보호무역",
+    "reading": "",
+    "summary": "자국 산업을 보호하기 위해 관세 부과나 수입 제한 등의 조치로 외국 상품의 유입을 억제하는 무역 정책을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/보호무역",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "국민소득",
+    "reading": "",
+    "summary": "한 나라의 국민이 일정 기간 동안 생산 활동을 통해 벌어들인 소득의 합계를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/국민_총소득",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "다태아",
+    "reading": "",
+    "summary": "한 번의 임신으로 둘 이상의 태아가 동시에 자라는 상태를 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/다태아",
+    "category": "life",
+    "categoryName": "생활"
+   },
+   {
+    "term": "Wet Lab",
+    "reading": "습식 실험실",
+    "summary": "액체 상태의 시약이나 화학 물질을 사용하여 실험을 수행하는 실험실을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/습식_실험실",
+    "category": "science",
+    "categoryName": "과학"
+   }
   ]
  }
 }
