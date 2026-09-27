@@ -189,6 +189,53 @@
     "category": "science",
     "categoryName": "과학"
    }
+  ],
+  "2026-09-28": [
+   {
+    "term": "휴머노이드",
+    "reading": "",
+    "summary": "인간과 모습이나 형태가 닮은 로봇을 말한다. 영어 'human'에 '~을 닮은'이라는 뜻의 접미사 '-oid'가 붙은 말이다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/휴머노이드",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "퇴직연금",
+    "reading": "",
+    "summary": "근로자가 퇴직할 때 받는 연금으로, 사용자와 근로자가 재직 중에 적립한 재원으로 지급되는 제도를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/연금",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "두 국가 해법",
+    "reading": "",
+    "summary": "두 개의 국가가 공존하는 방식으로 분쟁을 해결하는 방안을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/두_국가_해법",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "포화지방",
+    "reading": "",
+    "summary": "탄소 원자 사이에 이중 결합이 없어 수소가 최대로 결합된 지방산으로, 상온에서 고체 상태인 지방을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/포화_지방산",
+    "category": "life",
+    "categoryName": "생활"
+   },
+   {
+    "term": "시뮬레이션",
+    "reading": "",
+    "summary": "실제와 유사한 환경이나 조건을 인공적으로 만들어 그 결과를 예측하거나 실험하는 것을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/시뮬레이션",
+    "category": "it",
+    "categoryName": "IT"
+   }
   ]
  }
 }
