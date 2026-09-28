@@ -236,6 +236,53 @@
     "category": "it",
     "categoryName": "IT"
    }
+  ],
+  "2026-09-29": [
+   {
+    "term": "면역글로불린A",
+    "reading": "",
+    "summary": "점막 조직에서 주로 생성되어 외부 항원의 침입을 막는 역할을 하는 면역글로불린의 한 종류이다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/면역글로불린_A",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "Payload",
+    "reading": "탑재체",
+    "summary": "우주선이나 로켓이 운송 목적으로 싣고 가는 인공위성, 탐사선, 승무원 등의 유효 하중을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/페이로드_(우주선)",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "담합",
+    "reading": "",
+    "summary": "기업들이 서로 짜고 가격이나 생산량 등을 결정하여 경쟁을 제한함으로써 부당한 이익을 얻는 행위를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/담합",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "특검",
+    "reading": "",
+    "summary": "특정 사건의 진상을 규명하기 위해 특별법에 따라 임명되는 검사를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/대한민국의_특별검사제도",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "노쇠",
+    "reading": "",
+    "summary": "나이가 들면서 신체 기능이 점차 쇠퇴하는 현상을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/생물학적_노화",
+    "category": "life",
+    "categoryName": "생활"
+   }
   ]
  }
 }
