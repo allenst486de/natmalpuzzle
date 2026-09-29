@@ -283,6 +283,53 @@
     "category": "life",
     "categoryName": "생활"
    }
+  ],
+  "2026-09-30": [
+   {
+    "term": "정전협정",
+    "reading": "",
+    "summary": "교전 중인 당사자들이 군사 행동을 멈추기로 합의하여 맺는 협정을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/정전_(군사)",
+    "category": "politics",
+    "categoryName": "정치"
+   },
+   {
+    "term": "소비자신뢰지수",
+    "reading": "",
+    "summary": "소비자들이 경제 상황에 대해 느끼는 신뢰와 낙관의 정도를 수치로 나타낸 지수를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/소비자_신뢰지수",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "핵 억제력",
+    "reading": "",
+    "summary": "핵무기로 보복하겠다는 위협을 통해 적의 공격을 미리 막아내는 힘을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/억지_이론",
+    "category": "politics",
+    "categoryName": "정치"
+   },
+   {
+    "term": "스마트링",
+    "reading": "",
+    "summary": "반지 형태로 손가락에 끼워 결제나 건강 측정 등의 전자 기능을 제공하는 웨어러블 기기를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/스마트링",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "신자유주의",
+    "reading": "",
+    "summary": "시장의 자율성과 자유경쟁을 강조하고 국가의 개입을 축소하려는 경제적 사상을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/신자유주의",
+    "category": "economy",
+    "categoryName": "경제"
+   }
   ]
  }
 }
