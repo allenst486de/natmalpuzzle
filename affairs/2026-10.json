@@ -48,6 +48,53 @@
     "category": "it",
     "categoryName": "IT"
    }
+  ],
+  "2026-10-02": [
+   {
+    "term": "산업안전보건법",
+    "reading": "",
+    "summary": "산업 현장에서 일하는 사람의 안전과 건강을 지키기 위해 필요한 기준과 의무를 정한 법률을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/산업안전보건법",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "무성영화",
+    "reading": "",
+    "summary": "소리 없이 화면의 움직임과 자막만으로 이야기를 전달하는 영화를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/무성_영화",
+    "category": "culture",
+    "categoryName": "문화"
+   },
+   {
+    "term": "차세대중형위성",
+    "reading": "",
+    "summary": "기존 중형 위성보다 성능을 높여 다양한 임무를 수행하도록 개발한 중형급 인공위성 시리즈를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/차세대중형위성_1호",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "연방거래위원회",
+    "reading": "",
+    "summary": "미국에서 소비자 보호와 공정한 거래 질서를 위해 기업의 불공정 행위를 감시하고 규제하는 연방 정부 기구를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/연방거래위원회",
+    "category": "world",
+    "categoryName": "국제"
+   },
+   {
+    "term": "과징금",
+    "reading": "",
+    "summary": "법이나 계약을 위반한 상대에게 부과하는 벌금 성격의 금전적 제재를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/과징금",
+    "category": "society",
+    "categoryName": "사회"
+   }
   ]
  }
 }
