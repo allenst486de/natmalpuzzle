@@ -95,6 +95,53 @@
     "category": "society",
     "categoryName": "사회"
    }
+  ],
+  "2026-10-03": [
+   {
+    "term": "적응증",
+    "reading": "",
+    "summary": "어떤 약이나 치료법이 특정 질환이나 상태에 효과가 있다고 인정되어 사용될 수 있는 범위를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/적응증",
+    "category": "life",
+    "categoryName": "생활"
+   },
+   {
+    "term": "보궐선거",
+    "reading": "",
+    "summary": "선거로 뽑힌 사람이 임기 중에 사망하거나 사퇴하는 등의 이유로 빈 자리가 생겼을 때 그 자리를 채우기 위해 다시 치르는 선거를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/재보궐선거",
+    "category": "politics",
+    "categoryName": "정치"
+   },
+   {
+    "term": "자율신경계",
+    "reading": "",
+    "summary": "의지와 관계없이 심장 박동, 호흡, 소화, 체온 조절 등 생명 유지에 필요한 기능을 조절하는 신경 계통을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/자율신경계",
+    "category": "life",
+    "categoryName": "생활"
+   },
+   {
+    "term": "On-premises",
+    "reading": "온프레미스",
+    "summary": "소프트웨어나 서버를 외부 클라우드가 아닌 조직이 직접 보유한 전산 설비에 설치하여 운영하는 방식을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/온프레미시즈_소프트웨어",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "기술 부채",
+    "reading": "",
+    "summary": "빠른 개발을 위해 임시방편으로 처리한 설계나 코드가 쌓여, 나중에 유지·보수 비용과 부담으로 돌아오는 상태를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/기술_부채",
+    "category": "it",
+    "categoryName": "IT"
+   }
   ]
  }
 }
