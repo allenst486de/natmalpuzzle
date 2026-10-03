@@ -142,6 +142,53 @@
     "category": "it",
     "categoryName": "IT"
    }
+  ],
+  "2026-10-04": [
+   {
+    "term": "AI 거품",
+    "reading": "",
+    "summary": "인공지능 기술에 대한 기대가 실제 성과보다 지나치게 커져 관련 기업의 가치가 과대평가된 상태를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/AI_버블",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "Fraternity",
+    "reading": "프래터니티",
+    "summary": "대학에서 학생들이 친목과 교류를 목적으로 조직한 사교 단체를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/대학_형제회·자매회",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "Ketamine",
+    "reading": "케타민",
+    "summary": "마취와 진통 목적으로 사용되는 약물로, 오남용 시 환각과 의존성을 일으키는 물질을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/케타민",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "2금융권",
+    "reading": "",
+    "summary": "은행을 제외한 보험·증권·저축은행 등 제2금융권에 속하는 금융기관을 통틀어 이르는 말이다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/제2금융권",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "암표",
+    "reading": "",
+    "summary": "공식 판매처가 아닌 곳에서 표를 사고팔며 웃돈을 붙여 거래하는 행위를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/암표",
+    "category": "society",
+    "categoryName": "사회"
+   }
   ]
  }
 }
