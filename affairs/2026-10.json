@@ -189,6 +189,53 @@
     "category": "society",
     "categoryName": "사회"
    }
+  ],
+  "2026-10-05": [
+   {
+    "term": "FIAPF",
+    "reading": "국제영화제작자연맹",
+    "summary": "전 세계 영화 제작자들의 권익을 보호하고 영화 산업의 표준을 설정하기 위해 설립된 국제 기구인 국제영화제작자연맹을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/국제_영화_제작자_연맹",
+    "category": "culture",
+    "categoryName": "문화"
+   },
+   {
+    "term": "극초음속 미사일",
+    "reading": "",
+    "summary": "음속의 5배 이상의 매우 빠른 속도로 비행하며 목표물을 타격하는 미사일을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/극초음속_무기",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "시온주의",
+    "reading": "",
+    "summary": "유대인이 팔레스타인 지역에 유대인 국가를 건설하려는 민족주의 운동을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/시온주의",
+    "category": "politics",
+    "categoryName": "정치"
+   },
+   {
+    "term": "Service Charge",
+    "reading": "서비스 차지",
+    "summary": "제공된 서비스에 대한 대가로 상품 가격 외에 추가로 지불하는 봉사료를 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/팁",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "고독사",
+    "reading": "",
+    "summary": "가족이나 주변 사람과 단절된 채 홀로 살다가 아무도 모르게 죽음을 맞이하고 시간이 흐른 뒤에 발견되는 죽음을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/고독사",
+    "category": "society",
+    "categoryName": "사회"
+   }
   ]
  }
 }
