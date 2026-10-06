@@ -283,6 +283,53 @@
     "category": "economy",
     "categoryName": "경제"
    }
+  ],
+  "2026-10-07": [
+   {
+    "term": "문민통제",
+    "reading": "",
+    "summary": "군대 등 무력 조직이 민간의 정치적 지도와 감시 아래 놓여야 한다는 원칙을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/문민통제",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "Biological Weapon",
+    "reading": "생물무기",
+    "summary": "세균·바이러스·독소 등 생물학적 작용을 이용해 사람이나 동식물을 해치는 무기를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/생물무기",
+    "category": "world",
+    "categoryName": "국제"
+   },
+   {
+    "term": "외환보유액",
+    "reading": "",
+    "summary": "한 나라의 중앙은행이나 정부가 보유하고 있는 외국 통화 및 외화 자산을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/외환보유고",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "Open Weight",
+    "reading": "오픈웨이트",
+    "summary": "인공지능 모델의 학습된 매개변수 값을 공개해 누구나 내려받아 쓸 수 있게 한 것을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/무제한급",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "Metroidvania",
+    "reading": "메트로이드배니아",
+    "summary": "탐험과 능력 습득을 중심으로 하는 2차원 횡스크롤 액션 게임의 한 장르를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/메트로이드배니아",
+    "category": "culture",
+    "categoryName": "문화"
+   }
   ]
  }
 }
