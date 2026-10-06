@@ -16,6 +16,9 @@
     python .github/affairs/publish.py                 # 오늘(KST) + 지난 이틀 중 빈 날
     python .github/affairs/publish.py --date 2026-09-24
     python .github/affairs/publish.py --source 파일.json --date 2026-09-24   # 원본을 파일로(시험용)
+
+부르는 곳 둘: 맥 뉴스 브리핑(주 경로, 2026-09-26 — 전용 사본에서 브리핑 venv 의 Python 3.9)과 GitHub Actions(보조, 3.11).
+그래서 Python 3.9 문법까지만 쓴다(match 문·`X | None` 타입 표기 금지).
 """
 import argparse
 import hashlib

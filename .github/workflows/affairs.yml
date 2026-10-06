@@ -21,6 +21,7 @@ on:
 
 permissions:
   contents: write
+  pages: write          # 사이트가 저장소보다 늦으면 배포를 다시 요청한다(맨 끝 단계)
 
 concurrency:
   group: affairs
@@ -28,7 +29,8 @@ concurrency:
 
 jobs:
   publish:
-    runs-on: ubuntu-latest
+    # ubuntu-latest 는 2026-10-19부터 Ubuntu 26 으로 바뀐다 — 새 이미지에 Python 3.11 이 늦게 들어오면 setup-python 이 깨지므로 고정
+    runs-on: ubuntu-24.04
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
@@ -59,3 +61,24 @@ jobs:
           # 그사이 다른 커밋이 올라왔으면 위에 얹어 다시 민다(세 번까지)
           for try in 1 2 3; do git push && exit 0; git pull --rebase origin main; done
           exit 1
+
+      - name: Redeploy site if it missed terms
+        # 저장소엔 용어가 있는데 사이트엔 없을 때 — GitHub 쪽 장애로 Pages 배포가 취소되면 다음 커밋까지 아무도 다시 배포하지 않는다
+        # (2026-10-06: 러너를 못 받아 맥이 올린 그날 용어가 사이트에 안 올라감). 마지막 배포 요청이 20분 넘게 지났는데도
+        # 사이트의 이번 달 파일 마지막 날짜가 저장소와 다르면 배포를 다시 요청한다. 방금 이 실행이 민 커밋은 그 배포를 기다린다.
+        # ponytail: 이번 달 파일만 본다 — 달이 바뀐 첫날 지난달 보충분만 빠진 경우는 못 잡는다(다음 커밋 배포에 실린다)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          month=$(TZ=Asia/Seoul date +%Y-%m)
+          file="affairs/$month.json"
+          [ -f "$file" ] || { echo "$file 없음 — 건너뜀"; exit 0; }
+          last() { python3 -c "import json,sys; print(max(json.load(sys.stdin)['days']))"; }
+          repo=$(last < "$file")
+          live=$(curl -fsS "https://allenst486de.github.io/natmalpuzzle/$file?t=$(date +%s)" | last) || live="없음"
+          echo "저장소 $repo · 사이트 $live"
+          [ "$repo" = "$live" ] && exit 0
+          built=$(gh api "repos/$GITHUB_REPOSITORY/pages/builds/latest" -q .created_at)
+          age=$(( $(date +%s) - $(date -d "$built" +%s) ))
+          if [ "$age" -lt 1200 ]; then echo "마지막 배포 요청 ${age}초 전 — 기다림"; exit 0; fi
+          gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" -q '"배포 다시 요청: " + .status' | tee -a "$GITHUB_STEP_SUMMARY"
