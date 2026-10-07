@@ -330,6 +330,53 @@
     "category": "culture",
     "categoryName": "문화"
    }
+  ],
+  "2026-10-08": [
+   {
+    "term": "인구감소지역",
+    "reading": "",
+    "summary": "인구가 지속적으로 줄어 지역 소멸 위기에 놓였다고 판단되어 법으로 지정한 지역을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/인구감소지역",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "제로 트러스트",
+    "reading": "",
+    "summary": "네트워크 안팎 구분 없이 모든 접속을 기본적으로 신뢰하지 않고 인증과 검증을 요구하는 보안 모델을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/제로_트러스트_보안_모델",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "자기촉매",
+    "reading": "",
+    "summary": "화학 반응에서 생성물이 그 반응의 촉매로 작용하여 반응을 스스로 더 빠르게 진행시키는 현상을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/자기촉매",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "상속세",
+    "reading": "",
+    "summary": "사람이 사망했을 때 그 재산을 상속받는 사람에게 부과하는 세금을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/상속세",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "거울상 이성질체",
+    "reading": "",
+    "summary": "분자 구조가 서로 거울에 비친 모습처럼 대칭이지만 서로 겹쳐 놓을 수 없는 이성질체를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/광학_이성질체",
+    "category": "science",
+    "categoryName": "과학"
+   }
   ]
  }
 }
