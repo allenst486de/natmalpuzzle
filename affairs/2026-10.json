@@ -471,6 +471,53 @@
     "category": "life",
     "categoryName": "생활"
    }
+  ],
+  "2026-10-11": [
+   {
+    "term": "중대재해처벌법",
+    "reading": "",
+    "summary": "사업주나 경영책임자가 안전 보건 확보 의무를 위반하여 중대산업재해나 중대시민재해가 발생했을 때 처벌하도록 규정한 법률을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/중대재해_처벌_등에_관한_법률",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "Neurodivergence",
+    "reading": "신경다양성",
+    "summary": "자폐증이나 ADHD와 같이 뇌의 기능적 차이로 인해 나타나는 신경학적 다양성을 비정상적인 상태가 아닌 인간의 자연스러운 변이로 보는 관점을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/신경다양성",
+    "category": "culture",
+    "categoryName": "문화"
+   },
+   {
+    "term": "Organoid",
+    "reading": "오가노이드",
+    "summary": "줄기세포를 배양하여 인체 장기의 세포 구성과 기능을 유사하게 구현한 3차원 유사 장기 조직을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/오가노이드",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "비후성 심근증",
+    "reading": "",
+    "summary": "심장 근육이 비정상적으로 두꺼워져 심장 내부 공간이 좁아지고 혈액 순환에 장애가 생기는 질환을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/비후성_심근병증",
+    "category": "life",
+    "categoryName": "생활"
+   },
+   {
+    "term": "Ribosome",
+    "reading": "리보솜",
+    "summary": "세포 내에서 유전 정보에 따라 아미노산을 연결하여 단백질을 합성하는 세포 소기관을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/리보솜",
+    "category": "science",
+    "categoryName": "과학"
+   }
   ]
  }
 }
