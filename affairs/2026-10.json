@@ -518,6 +518,53 @@
     "category": "science",
     "categoryName": "과학"
    }
+  ],
+  "2026-10-12": [
+   {
+    "term": "Nuclear Clock",
+    "reading": "핵시계",
+    "summary": "원자핵의 에너지 준위 전이를 이용해 시간을 재는 시계로, 기존 원자시계보다 훨씬 정밀할 것으로 기대되는 차세대 시간 측정 장치를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/핵시계",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "Houthi",
+    "reading": "후티 반군",
+    "summary": "예멘 북부를 근거지로 활동하는 시아파 계열의 무장 반군 조직으로, 공식 명칭은 '안사르 알라'이다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/후티",
+    "category": "world",
+    "categoryName": "국제"
+   },
+   {
+    "term": "Net Zero",
+    "reading": "넷제로",
+    "summary": "온실가스를 배출하는 만큼 흡수·제거하여 순 배출량을 0으로 만드는 것을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/순_제로_배출",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "자본시장법",
+    "reading": "",
+    "summary": "자본시장에서 금융투자업을 영위하는 자의 건전한 영업질서를 확립하고 투자자를 보호하기 위한 법률을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/자본시장과_금융투자업에_관한_법률",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "전문의",
+    "reading": "",
+    "summary": "의사 면허를 가진 사람이 일정한 전문 분야의 수련을 마치고 보건복지부 장관의 자격 인정을 받은 의사를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/의사",
+    "category": "life",
+    "categoryName": "생활"
+   }
   ]
  }
 }
