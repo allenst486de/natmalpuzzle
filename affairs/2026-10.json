@@ -612,6 +612,53 @@
     "category": "society",
     "categoryName": "사회"
    }
+  ],
+  "2026-10-14": [
+   {
+    "term": "Graphic Novel",
+    "reading": "그래픽 노블",
+    "summary": "만화의 형식을 빌려 소설처럼 복잡한 서사와 예술적 구성을 갖춘 작품을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/그래픽_노블",
+    "category": "culture",
+    "categoryName": "문화"
+   },
+   {
+    "term": "비문증",
+    "reading": "",
+    "summary": "눈앞에 먼지나 벌레 같은 작은 물체가 떠다니는 것처럼 보이는 증상을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/비문증",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "Connected Car",
+    "reading": "커넥티드카",
+    "summary": "인터넷에 연결되어 실시간으로 정보를 주고받으며 다양한 서비스를 제공하는 자동차를 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/커넥티드_카",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "자가면역 질환",
+    "reading": "",
+    "summary": "면역 체계가 자신의 신체 조직을 외부 물질로 오인하여 공격함으로써 발생하는 질환을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/자가_면역_질환",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "Ontology",
+    "reading": "온톨로지",
+    "summary": "지식 영역 내의 개념들과 그들 사이의 관계를 컴퓨터가 처리할 수 있도록 정의한 체계를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/온톨로지",
+    "category": "it",
+    "categoryName": "IT"
+   }
   ]
  }
 }
