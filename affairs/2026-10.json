@@ -659,6 +659,53 @@
     "category": "it",
     "categoryName": "IT"
    }
+  ],
+  "2026-10-15": [
+   {
+    "term": "Digital Twin",
+    "reading": "디지털 트윈",
+    "summary": "현실의 사물이나 시스템을 센서 데이터 등을 바탕으로 가상 공간에 똑같이 재현한 모형을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/디지털_트윈",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "상급종합병원",
+    "reading": "",
+    "summary": "중증 질환을 가진 환자에게 전문적인 진료를 제공하도록 보건복지부 장관이 지정한 종합병원을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/상급종합병원",
+    "category": "life",
+    "categoryName": "생활"
+   },
+   {
+    "term": "식민주의",
+    "reading": "",
+    "summary": "한 나라가 다른 지역이나 민족을 지배하고 통치하며 그 문화와 제도를 강요하는 사상이나 정책을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/식민주의",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "소비자물가지수",
+    "reading": "",
+    "summary": "소비자가 구입하는 상품과 서비스의 가격 변동을 나타내는 지수로, 물가 수준을 측정하는 데 쓰인다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/소비자_물가지수",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "공중보건의사",
+    "reading": "",
+    "summary": "농어촌 등 의료 취약 지역에서 공중 보건 업무와 진료를 담당하는 의사를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/공중보건의사",
+    "category": "life",
+    "categoryName": "생활"
+   }
   ]
  }
 }
