@@ -753,6 +753,53 @@
     "category": "life",
     "categoryName": "생활"
    }
+  ],
+  "2026-10-17": [
+   {
+    "term": "전원합의체",
+    "reading": "",
+    "summary": "법원에서 사건의 심리와 재판에 그 법원의 전체 판사가 함께 참여하는 것을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/전원합의체",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "브렉시트",
+    "reading": "",
+    "summary": "영국이 유럽 연합(EU)에서 탈퇴한 사건을 뜻한다. '브리튼(Britain)'과 '출구(exit)'의 합성어이다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/브렉시트",
+    "category": "world",
+    "categoryName": "국제"
+   },
+   {
+    "term": "NEET",
+    "reading": "",
+    "summary": "취업하지도, 교육이나 직업훈련을 받지도 않는 청년을 뜻한다. 'Not in Education, Employment or Training'의 머리글자이다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/니트족",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "Opt-out",
+    "reading": "옵트아웃",
+    "summary": "개인정보 수집이나 마케팅 등에 대해 사용자가 거부 의사를 밝혀 빠지는 방식이나 그 행위를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/옵트아웃",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "Polymarket",
+    "reading": "폴리마켓",
+    "summary": "미래 사건의 결과에 참여자들이 거래하며 확률을 예측하는 온라인 예측 시장 플랫폼을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/폴리마켓",
+    "category": "it",
+    "categoryName": "IT"
+   }
   ]
  }
 }
