@@ -800,6 +800,53 @@
     "category": "it",
     "categoryName": "IT"
    }
+  ],
+  "2026-10-18": [
+   {
+    "term": "메트로섹슈얼",
+    "reading": "",
+    "summary": "메트로폴리탄과 섹슈얼의 합성어로, 외모와 패션, 그루밍에 세심한 관심을 기울이는 도시 남성을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/메트로섹슈얼",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "미엘린",
+    "reading": "",
+    "summary": "신경 세포의 축삭을 둘러싸서 신경 신호의 전달 속도를 높이는, 지질과 단백질로 이루어진 절연 피막(수초)을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/미엘린",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "옥조근정훈장",
+    "reading": "",
+    "summary": "대한민국 정부가 공무원이나 사회 유공자에게 수여하는 훈장 가운데 다섯 번째 등급인 근정훈장의 등급 중 하나를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/근정훈장",
+    "category": "politics",
+    "categoryName": "정치"
+   },
+   {
+    "term": "야스쿠니 신사",
+    "reading": "",
+    "summary": "일본 도쿄에 있는 신사로, 전몰자를 신으로 모시는 시설을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/야스쿠니_신사",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "복제수 변이",
+    "reading": "",
+    "summary": "유전체에서 특정 유전자 구간의 복제수가 개인마다 다르게 나타나는 현상을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/유전자_복제수_변이",
+    "category": "science",
+    "categoryName": "과학"
+   }
   ]
  }
 }
