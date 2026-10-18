@@ -847,6 +847,53 @@
     "category": "science",
     "categoryName": "과학"
    }
+  ],
+  "2026-10-19": [
+   {
+    "term": "Leap Second",
+    "reading": "윤초",
+    "summary": "지구 자전 속도의 변화를 반영해 협정 세계시(UTC)에 간헐적으로 1초를 더하거나 빼는 조정을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/윤초",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "입법예고",
+    "reading": "",
+    "summary": "정부가 법률이나 명령을 제정·개정·폐지하기 전에 그 내용을 미리 공개하고 국민의 의견을 듣는 절차를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/입법예고",
+    "category": "politics",
+    "categoryName": "정치"
+   },
+   {
+    "term": "웹 크롤링",
+    "reading": "",
+    "summary": "크롤러라는 프로그램이 인터넷상의 웹 문서를 자동으로 따라 다니며 내용을 수집하는 작업을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/웹_크롤러",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "타원곡선",
+    "reading": "",
+    "summary": "대수 기하학에서 정의되는 곡선으로, IT에서는 타원곡선 암호 방식의 기반으로 활용되는 곡선을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/타원곡선",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "동맹",
+    "reading": "",
+    "summary": "국가나 단체가 공동의 이익이나 목적을 위해 상호 협력하기로 맺은 관계 또는 조약을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/동맹",
+    "category": "politics",
+    "categoryName": "정치"
+   }
   ]
  }
 }
