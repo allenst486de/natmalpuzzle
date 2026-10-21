@@ -988,6 +988,53 @@
     "category": "politics",
     "categoryName": "정치"
    }
+  ],
+  "2026-10-22": [
+   {
+    "term": "구상권",
+    "reading": "",
+    "summary": "채무자를 대신해 변제한 사람이 그 채무자에게 상환을 청구할 수 있는 권리를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/구상권",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "비정규직",
+    "reading": "",
+    "summary": "고용 기간이 정해져 있거나 고용 형태가 불안정한 근로 형태를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/비정규직",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "영리병원",
+    "reading": "",
+    "summary": "이윤 추구를 목적으로 설립되어 운영되는 의료기관을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/영리병원",
+    "category": "life",
+    "categoryName": "생활"
+   },
+   {
+    "term": "전세",
+    "reading": "",
+    "summary": "전세금을 지급하고 타인의 부동산을 점유하여 사용하는 한국 특유의 임대차 제도를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/전세권",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "심리전",
+    "reading": "",
+    "summary": "상대방의 심리 상태에 영향을 주어 의사 결정이나 행동을 조작함으로써 원하는 목적을 달성하려는 전략을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/심리전",
+    "category": "politics",
+    "categoryName": "정치"
+   }
   ]
  }
 }
