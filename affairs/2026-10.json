@@ -1035,6 +1035,53 @@
     "category": "politics",
     "categoryName": "정치"
    }
+  ],
+  "2026-10-23": [
+   {
+    "term": "구속영장",
+    "reading": "",
+    "summary": "수사 기관의 청구에 따라 법원이 피의자를 구속하는 것을 허가하기 위해 발부하는 영장을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/구속영장",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "경기선행지수",
+    "reading": "",
+    "summary": "경기에 앞서 움직이는 지표들을 종합하여 장래의 경기 동향을 예측하는 데 쓰이는 지수를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/경기순환",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "표현형",
+    "reading": "",
+    "summary": "유전자형과 환경의 상호작용 결과로 생물체에 나타나는 관찰 가능한 형질을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/표현형",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "펀더멘털",
+    "reading": "",
+    "summary": "경제의 기초 여건이나 기업의 본질적 가치를 뜻하는 말로, 주가나 환율의 장기적 흐름을 좌우하는 실물 경제 요인을 가리킨다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/펀더멘털",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "아르테미스 계획",
+    "reading": "",
+    "summary": "미국이 주도하는 달 재착륙과 유인 탐사 등을 목표로 하는 우주 탐사 계획을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/아르테미스_계획",
+    "category": "science",
+    "categoryName": "과학"
+   }
   ]
  }
 }
