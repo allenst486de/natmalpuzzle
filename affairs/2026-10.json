@@ -1082,6 +1082,53 @@
     "category": "science",
     "categoryName": "과학"
    }
+  ],
+  "2026-10-24": [
+   {
+    "term": "브렌트유",
+    "reading": "",
+    "summary": "북해에서 생산되는 원유로, 국제 유가의 기준이 되는 대표적인 유종을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/브렌트_원유",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "국제 일반명",
+    "reading": "",
+    "summary": "세계보건기구(WHO)가 의약품 성분마다 정한 공식적인 일반명을 말한다. 영어 'International Nonproprietary Name'의 줄임말인 INN으로도 부른다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/국제일반명",
+    "category": "life",
+    "categoryName": "생활"
+   },
+   {
+    "term": "면책특권",
+    "reading": "",
+    "summary": "국회의원이나 대통령 등이 직무 수행 중 한 발언이나 행위에 대해 법적 책임을 지지 않는 특권을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/면책특권",
+    "category": "politics",
+    "categoryName": "정치"
+   },
+   {
+    "term": "상호운용성",
+    "reading": "",
+    "summary": "서로 다른 시스템이나 기기, 소프트웨어가 정보를 교환하고 함께 사용될 수 있는 능력을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/상호운용성",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "인증",
+    "reading": "",
+    "summary": "어떤 대상이나 사실이 진실임을 공적 기관이나 권위 있는 기관이 증명하는 일을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/인증",
+    "category": "society",
+    "categoryName": "사회"
+   }
   ]
  }
 }
