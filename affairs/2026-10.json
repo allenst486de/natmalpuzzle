@@ -1129,6 +1129,53 @@
     "category": "society",
     "categoryName": "사회"
    }
+  ],
+  "2026-10-25": [
+   {
+    "term": "사회주택",
+    "reading": "",
+    "summary": "공공기관이나 비영리 단체 등이 저렴한 임대료로 공급하여 서민의 주거 안정을 도모하는 주택을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/사회주택",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "Fabless",
+    "reading": "팹리스",
+    "summary": "반도체 제조 공정인 팹(Fab)을 갖추지 않고 설계만을 전문으로 하는 기업을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/팹리스_반도체_기업",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "노란조끼",
+    "reading": "",
+    "summary": "프랑스에서 유류세 인상에 반대하며 노란색 안전 조끼를 입고 시작된 사회 운동을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/노란_조끼_운동",
+    "category": "world",
+    "categoryName": "국제"
+   },
+   {
+    "term": "혼잡통행료",
+    "reading": "",
+    "summary": "교통 혼잡을 줄이기 위해 특정 시간대에 특정 구간을 통행하는 차량에 부과하는 통행료를 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/혼잡통행료",
+    "category": "life",
+    "categoryName": "생활"
+   },
+   {
+    "term": "Red Team",
+    "reading": "레드팀",
+    "summary": "조직의 전략이나 보안 체계의 취약점을 찾기 위해 적군이나 공격자의 관점에서 모의 공격을 수행하는 팀을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/레드_팀",
+    "category": "it",
+    "categoryName": "IT"
+   }
   ]
  }
 }
