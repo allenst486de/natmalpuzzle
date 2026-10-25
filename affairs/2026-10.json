@@ -1176,6 +1176,53 @@
     "category": "it",
     "categoryName": "IT"
    }
+  ],
+  "2026-10-26": [
+   {
+    "term": "S&P500",
+    "reading": "",
+    "summary": "미국 증권거래소에 상장된 대형 기업 500개의 주가를 종합해 산출하는 주가지수를 말한다. 스탠더드 앤 푸어스(Standard & Poor's)에서 이름이 유래했다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/S&P_500",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "그린벨트",
+    "reading": "",
+    "summary": "도시 주변의 무분별한 확장을 막고 자연환경을 보호하기 위해 건축과 개발 행위를 제한하는 구역을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/개발제한구역",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "광촉매",
+    "reading": "",
+    "summary": "빛을 받으면 화학 반응을 촉진시켜 오염 물질을 분해하거나 정화하는 물질을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/광촉매",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "항뮐러관 호르몬",
+    "reading": "",
+    "summary": "난소에서 분비되어 난포의 발달을 조절하는 호르몬으로, 난소 예비능을 평가하는 지표로 쓰인다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/항뮐러관_호르몬",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "자가 격리",
+    "reading": "",
+    "summary": "전염병에 감염되었거나 감염이 의심되는 사람이 다른 사람과 접촉하지 않도록 일정 기간 스스로 시설이나 집에 머무는 것을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/격리",
+    "category": "society",
+    "categoryName": "사회"
+   }
   ]
  }
 }
