@@ -1270,6 +1270,53 @@
     "category": "science",
     "categoryName": "과학"
    }
+  ],
+  "2026-10-28": [
+   {
+    "term": "SMR",
+    "reading": "소형모듈원자로",
+    "summary": "출력을 수십~수백 메가와트 수준으로 줄이고, 공장에서 모듈 단위로 제작해 현장에서 조립하는 소형 원자로를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/소형모듈원자로",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "TPU",
+    "reading": "텐서 프로세싱 유닛",
+    "summary": "텐서 처리 장치의 줄임말로, 인공지능의 텐서·행렬 연산을 빠르게 처리하도록 만든 특수 목적 반도체 칩을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/텐서_처리_장치",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "오페라 글러브",
+    "reading": "",
+    "summary": "팔꿈치 위까지 길게 이어지는 형태로, 예복 차림에 함께 착용하는 정장용 장갑을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/이브닝_장갑",
+    "category": "life",
+    "categoryName": "생활"
+   },
+   {
+    "term": "육불화황",
+    "reading": "",
+    "summary": "황 원자 하나에 불소 원자 여섯 개가 결합된 불활성 기체로, 절연성이 뛰어나 전기 설비에 쓰이며 강한 온실가스이기도 하다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/육플루오린화_황",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "미프진",
+    "reading": "",
+    "summary": "임신 중절에 사용되는 약물로, 자궁 수축을 유도해 임신을 종료시키는 성분을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/미페프리스톤",
+    "category": "society",
+    "categoryName": "사회"
+   }
   ]
  }
 }
