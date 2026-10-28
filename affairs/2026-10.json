@@ -1317,6 +1317,53 @@
     "category": "society",
     "categoryName": "사회"
    }
+  ],
+  "2026-10-29": [
+   {
+    "term": "Microcystin",
+    "reading": "마이크로시스틴",
+    "summary": "남조류가 만들어 내는 독소의 하나로, 물을 오염시키고 사람이나 동물에 간 손상 등을 일으킬 수 있는 물질을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/마이크로시스틴",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "건정심",
+    "reading": "",
+    "summary": "건강보험정책심의위원회의 줄임말로, 건강보험의 보험료와 급여 등 주요 정책을 심의·의결하는 기구를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/건강보험정책심의위원회",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "어닐링",
+    "reading": "",
+    "summary": "금속이나 반도체 등의 재료를 가열한 뒤 서서히 식혀 내부 조직을 안정시키는 열처리 과정을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/어닐링",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "바이오의약품",
+    "reading": "",
+    "summary": "생물체나 생명공학 기술을 이용해 만든 의약품으로, 단백질·항체·백신 같은 약물을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/생체의약품",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "연방기금금리",
+    "reading": "",
+    "summary": "미국에서 은행들이 남는 지급준비금을 서로 단기간 빌려줄 때 적용하는 금리로, 연방준비제도가 정하는 기준 금리 역할을 한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/페더럴_펀드_금리",
+    "category": "economy",
+    "categoryName": "경제"
+   }
   ]
  }
 }
