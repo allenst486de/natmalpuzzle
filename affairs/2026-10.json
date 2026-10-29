@@ -1364,6 +1364,53 @@
     "category": "economy",
     "categoryName": "경제"
    }
+  ],
+  "2026-10-30": [
+   {
+    "term": "다발골수종",
+    "reading": "",
+    "summary": "골수의 형질세포가 암세포로 변해 비정상적으로 증식하면서 뼈를 파괴하고 빈혈·신장 장애 등을 일으키는 혈액암을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/다발성_골수종",
+    "category": "life",
+    "categoryName": "생활"
+   },
+   {
+    "term": "HPV",
+    "reading": "인유두종바이러스",
+    "summary": "사람의 피부와 점막에 감염되어 사마귀나 자궁경부암 등을 일으킬 수 있는 바이러스를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/인유두종_바이러스",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "역차별",
+    "reading": "",
+    "summary": "특정 집단을 보호하거나 배려하려는 조치가 오히려 다른 집단에게 불리하게 작용하는 차별을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/역차별",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "올해의 작가상",
+    "reading": "",
+    "summary": "한 해 동안 뛰어난 작품 활동을 한 작가에게 주는 상을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/올해의_작가상",
+    "category": "culture",
+    "categoryName": "문화"
+   },
+   {
+    "term": "턱관절 장애",
+    "reading": "",
+    "summary": "턱관절과 씹는 근육에 통증이나 기능 이상이 생겨 입을 벌리기 어렵거나 턱에서 소리가 나는 등의 증상을 보이는 질환을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/턱관절_장애",
+    "category": "life",
+    "categoryName": "생활"
+   }
   ]
  }
 }
