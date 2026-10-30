@@ -1411,6 +1411,53 @@
     "category": "life",
     "categoryName": "생활"
    }
+  ],
+  "2026-10-31": [
+   {
+    "term": "부재자 투표",
+    "reading": "",
+    "summary": "선거일에 투표소에 직접 가기 어려운 유권자가 우편이나 지정된 장소를 통해 미리 투표하는 제도를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/부재자_투표",
+    "category": "politics",
+    "categoryName": "정치"
+   },
+   {
+    "term": "왜행성",
+    "reading": "",
+    "summary": "태양 주위를 도는 천체 가운데 질량이 충분해 구형에 가깝지만 궤도 근처의 다른 천체를 쓸어내지 못해 행성에서 제외된 천체를 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/왜행성",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "금관문화훈장",
+    "reading": "",
+    "summary": "문화 예술 발전에 기여한 공이 큰 사람에게 수여하는 대한민국 문화훈장의 한 등급을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/문화훈장_(대한민국)",
+    "category": "culture",
+    "categoryName": "문화"
+   },
+   {
+    "term": "초지능",
+    "reading": "",
+    "summary": "인간의 지능을 모든 영역에서 뛰어넘는 가상의 인공지능을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/초지능",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "용적률",
+    "reading": "",
+    "summary": "대지 면적에 대한 건축물 연면적의 비율로, 건축 규모의 상한을 정하는 기준을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/용적률",
+    "category": "economy",
+    "categoryName": "경제"
+   }
   ]
  }
 }
