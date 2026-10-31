@@ -1,0 +1,53 @@
+{
+ "version": 1,
+ "month": "2026-11",
+ "days": {
+  "2026-11-01": [
+   {
+    "term": "Dendrite",
+    "reading": "덴드라이트",
+    "summary": "액체가 굳을 때 나뭇가지 모양으로 갈라지며 결정이 자라는 구조를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/덴드라이트",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "Cardiac Arrest",
+    "reading": "심정지",
+    "summary": "심장이 갑자기 멈추어 혈액을 온몸으로 보내지 못하는 상태를 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/심정지",
+    "category": "life",
+    "categoryName": "생활"
+   },
+   {
+    "term": "슈퍼앱",
+    "reading": "",
+    "summary": "여러 기능을 하나의 앱 안에서 모두 제공하는 통합 응용 프로그램을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/슈퍼앱",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "Quorum",
+    "reading": "정족수",
+    "summary": "회의에서 의결을 성립시키는 데 필요한 최소한의 출석 인원을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/정족수",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "Navier-Stokes problem",
+    "reading": "나비에-스토크스 문제",
+    "summary": "나비에-스토크스 방정식의 해가 항상 존재하고 매끄러운지 밝히는 수학 난제를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/나비에-스토크스_존재성과_매끄러움",
+    "category": "science",
+    "categoryName": "과학"
+   }
+  ]
+ }
+}
