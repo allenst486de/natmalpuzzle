@@ -3,9 +3,10 @@
 
 원본: 뉴스 브리핑 저장소(공개)의 App Terms 작업 결과
     https://raw.githubusercontent.com/allenst486de/news_briefing_system/main/data/app_terms/YYYY/MM-DD.json
-    {"date": "...", "terms": [{"term", "reading", "meaning", "category", "categoryName", "url", ...}, ...]}
+    {"date": "...", "terms": [{"term", "reading", "meaning", "category", "categoryName", "url", "source"?, ...}, ...]}
+    source 는 "위키백과"·"네이버 지식백과"·"웹" — 없으면 위키백과(2026-11-03 위키 문서 없는 용어 추가)
 고르는 규칙(앞에서부터 다섯 개까지):
-    · 표제·뜻풀이·분야·위키백과 주소가 있는 것
+    · 표제·뜻풀이·분야·출처 주소가 있는 것(주소는 위키가 아니어도 된다)
     · 금칙어가 없는 것 — 목록은 해시(banned.json)로만 둔다(원문은 앱 소스에만)
     · 최근 12개월 안에 앱에 실렸거나(bundled.json) 이미 올린 용어가 아닌 것
 오늘(KST)보다 뒤 날짜는 올리지 않는다. 이미 다섯 개가 있으면 그대로 둔다(한 번 연 용어가 바뀌지 않게).
@@ -93,7 +94,7 @@ def pick(raw, day, taken=()):
             skipped.append(f"{term}({reason})")
             continue
         chosen.append({"term": term, "reading": (t.get("reading") or "").strip(), "summary": meaning,
-                       "source": "위키백과", "url": t["url"], "category": t["category"],
+                       "source": str(t.get("source") or "위키백과").strip(), "url": t["url"], "category": t["category"],
                        "categoryName": t["categoryName"]})
         if len(chosen) + len(taken) >= PER_DAY:
             break
