@@ -142,6 +142,53 @@
     "category": "economy",
     "categoryName": "경제"
    }
+  ],
+  "2026-11-04": [
+   {
+    "term": "타당성 조사",
+    "reading": "",
+    "summary": "사업이나 정책을 추진하기 전에 목표 달성이 가능한지, 비용과 효과가 적절한지 따져 실현 가능성을 판단하는 조사를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/타당성_조사",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "행정사무감사",
+    "reading": "",
+    "summary": "지방의회가 지방자치단체의 행정사무가 법령에 따라 적정하게 처리되었는지 조사하는 제도를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/행정사무감사",
+    "category": "politics",
+    "categoryName": "정치"
+   },
+   {
+    "term": "Botnet",
+    "reading": "봇넷",
+    "summary": "bot과 network의 합성어로, 악성코드에 감염되어 공격자가 원격으로 조종하는 다수의 컴퓨터들이 이루는 네트워크를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/봇넷",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "PFAS",
+    "reading": "",
+    "summary": "과불화화합물로, 화학적으로 매우 안정해 잘 분해되지 않고 환경과 생체에 오래 축적될 수 있는 인공 합성 화학 물질군을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/과불화화합물",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "슈도에페드린",
+    "reading": "",
+    "summary": "코감기나 비염 치료에 쓰이는 교감신경 흥분제로, 코막힘을 완화하는 성분을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/슈도에페드린",
+    "category": "science",
+    "categoryName": "과학"
+   }
   ]
  }
 }
