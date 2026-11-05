@@ -236,6 +236,53 @@
     "category": "culture",
     "categoryName": "문화"
    }
+  ],
+  "2026-11-06": [
+   {
+    "term": "Intangible Heritage",
+    "reading": "무형유산",
+    "summary": "전통 예술, 공연, 사회적 관습, 전통 공예 기술 등 공동체에 의해 전승되는 무형의 문화적 유산을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/무형유산",
+    "category": "culture",
+    "categoryName": "문화"
+   },
+   {
+    "term": "Zero-Knowledge Proof",
+    "reading": "영지식 증명",
+    "summary": "증명자가 자신이 알고 있는 비밀 정보를 공개하지 않고도, 해당 정보를 알고 있다는 사실을 검증자에게 증명하는 암호학적 방법을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/영지식_증명",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "Hybrid warfare",
+    "reading": "하이브리드 전쟁",
+    "summary": "정규 군사 작전과 비정규전, 사이버 공격, 심리전 등 다양한 수단을 결합하여 수행하는 전쟁 형태를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/하이브리드_전쟁",
+    "category": "world",
+    "categoryName": "국제"
+   },
+   {
+    "term": "SoC",
+    "reading": "",
+    "summary": "System on Chip의 줄임말로, CPU, 메모리, 입출력 인터페이스 등 컴퓨터의 핵심 부품들을 하나의 칩에 통합한 시스템을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/시스템_온_칩",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "Rally",
+    "reading": "랠리",
+    "summary": "주식 시장에서 주가가 일정 기간 동안 지속적으로 상승하는 현상을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/랠리",
+    "category": "economy",
+    "categoryName": "경제"
+   }
   ]
  }
 }
