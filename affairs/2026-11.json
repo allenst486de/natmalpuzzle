@@ -283,6 +283,53 @@
     "category": "economy",
     "categoryName": "경제"
    }
+  ],
+  "2026-11-07": [
+   {
+    "term": "저체온증",
+    "reading": "",
+    "summary": "추위에 오래 노출되어 몸속의 중심 체온이 정상보다 크게 내려가는 상태를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/저체온증",
+    "category": "life",
+    "categoryName": "생활"
+   },
+   {
+    "term": "표적치료",
+    "reading": "",
+    "summary": "암세포에만 있는 특정 분자나 유전자를 표 삼아 선택적으로 공격해 암을 치료하는 방법을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/표적_치료",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "말라리아",
+    "reading": "",
+    "summary": "말라리아 원충에 감염된 모기에 물려 옮는 감염병으로, 오한과 고열 같은 증상을 일으키는 병을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/말라리아",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "이해충돌",
+    "reading": "",
+    "summary": "공직자나 결정권자가 수행하는 공적 임무와 개인적 이익이 서로 충돌하여, 공정한 직무 수행이 저해될 우려가 있는 상태를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/이해충돌",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "내란",
+    "reading": "",
+    "summary": "국가 내부에서 헌법 기관을 파괴하거나 국토를 찬탈하기 위해 폭동을 일으키는 행위를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/내란죄",
+    "category": "society",
+    "categoryName": "사회"
+   }
   ]
  }
 }
