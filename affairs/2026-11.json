@@ -377,6 +377,53 @@
     "category": "it",
     "categoryName": "IT"
    }
+  ],
+  "2026-11-09": [
+   {
+    "term": "유엔기후변화협약 당사국총회",
+    "reading": "",
+    "summary": "기후변화에 대응하기 위해 유엔기후변화협약에 가입한 국가들이 모여 온실가스 감축과 관련한 사항을 논의하는 회의를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/유엔기후변화협약_당사국총회",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "클로드 코드",
+    "reading": "",
+    "summary": "인공지능 기업 앤스로픽이 만든 대규모 언어 모델 클로드를 기반으로 코드 작성과 수정을 돕는 도구를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/클로드_(언어_모델)",
+    "category": "it",
+    "categoryName": "IT"
+   },
+   {
+    "term": "발사체",
+    "reading": "",
+    "summary": "로켓이나 미사일 등으로 물체를 대기권 밖이나 목표 지점까지 쏘아 올리는 데 쓰이는 장치나 그 물체를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/발사체",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "스트리밍",
+    "reading": "",
+    "summary": "음악이나 영상 같은 데이터를 인터넷으로 전송해 저장하지 않고 실시간으로 재생하는 방식을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/스트리밍",
+    "category": "culture",
+    "categoryName": "문화"
+   },
+   {
+    "term": "멀티모달 모델",
+    "reading": "",
+    "summary": "글과 이미지, 소리 등 여러 종류의 데이터를 함께 처리할 수 있도록 만든 인공지능 모델을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/멀티모달_학습",
+    "category": "it",
+    "categoryName": "IT"
+   }
   ]
  }
 }
