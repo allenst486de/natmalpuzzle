@@ -424,6 +424,53 @@
     "category": "it",
     "categoryName": "IT"
    }
+  ],
+  "2026-11-10": [
+   {
+    "term": "중위소득",
+    "reading": "",
+    "summary": "모든 가구를 소득 순으로 세웠을 때 정확히 중간에 위치한 가구의 소득을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/중위소득",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "심리불속행",
+    "reading": "",
+    "summary": "상고심에서 원심 판결에 영향을 미칠 만한 법률 위반이 없다고 판단하여 더 이상 심리하지 않고 기각하는 결정을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/심리불속행",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "이슬람혁명수비대",
+    "reading": "",
+    "summary": "이란에 정규군과는 별도로 이슬람 정권과 혁명의 성과를 지키기 위해 창설된 군사 조직을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/이슬람_혁명_수비대",
+    "category": "world",
+    "categoryName": "국제"
+   },
+   {
+    "term": "호흡기세포융합바이러스",
+    "reading": "",
+    "summary": "영유아에게 모세기관지염이나 폐렴 따위 호흡기 감염을 일으키는 바이러스로, RSV라고도 한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/호흡기세포융합바이러스",
+    "category": "life",
+    "categoryName": "생활"
+   },
+   {
+    "term": "GPU",
+    "reading": "",
+    "summary": "컴퓨터에서 영상을 처리하는 연산을 맡는 반도체 칩을 말한다. 인공지능 학습처럼 많은 계산을 동시에 처리하는 데에도 널리 쓰인다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/그래픽_처리_장치",
+    "category": "it",
+    "categoryName": "IT"
+   }
   ]
  }
 }
