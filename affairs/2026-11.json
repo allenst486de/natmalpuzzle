@@ -471,6 +471,53 @@
     "category": "it",
     "categoryName": "IT"
    }
+  ],
+  "2026-11-11": [
+   {
+    "term": "저작인접권",
+    "reading": "",
+    "summary": "저작물을 복제, 전송, 방송하는 등 실연자, 음반 제작자, 방송 사업자에게 부여되는 권리를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/저작인접권",
+    "category": "culture",
+    "categoryName": "문화"
+   },
+   {
+    "term": "Carbon Budget",
+    "reading": "탄소 예산",
+    "summary": "지구 온난화를 특정 수준 이하로 억제하기 위해 대기 중에 배출할 수 있는 이산화탄소의 총량을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/탄소_예산",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "Post-apocalypse",
+    "reading": "포스트 아포칼립스",
+    "summary": "문명이나 세계가 멸망한 이후의 세계를 배경으로 하는 예술 장르나 설정을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/종말물",
+    "category": "culture",
+    "categoryName": "문화"
+   },
+   {
+    "term": "기업결합",
+    "reading": "",
+    "summary": "기업이 합병, 영업 양수, 주식 취득 등의 방법으로 다른 기업과 하나로 합쳐지거나 경영권을 확보하는 것을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/기업결합",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "NPT",
+    "reading": "핵확산금지조약",
+    "summary": "핵무기의 확산을 방지하고 핵 군비 경쟁을 억제하며 원자력의 평화적 이용을 촉진하기 위해 체결된 국제 조약을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/핵확산방지조약",
+    "category": "world",
+    "categoryName": "국제"
+   }
   ]
  }
 }
