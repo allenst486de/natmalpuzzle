@@ -518,6 +518,53 @@
     "category": "world",
     "categoryName": "국제"
    }
+  ],
+  "2026-11-12": [
+   {
+    "term": "Put Option",
+    "reading": "풋옵션",
+    "summary": "미리 정한 가격에 정해진 기간 안에 자산을 팔 수 있는 권리를 거래하는 금융 상품을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/옵션_(금융)",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "General Strike",
+    "reading": "총파업",
+    "summary": "노동자들이 업종과 사업장의 구분 없이 함께 참여해 노동을 멈추는 대규모 파업을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/총파업",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "Conversion Therapy",
+    "reading": "전환 치료",
+    "summary": "개인의 성적 지향이나 성별 정체성을 바꾸려 시도하는 치료 행위를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/전환_치료",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "Export Controls",
+    "reading": "수출 규제",
+    "summary": "국가가 안보나 정책상의 이유로 특정 물자나 기술의 해외 수출을 제한하는 조치를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/수출규제",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "예산안",
+    "reading": "",
+    "summary": "정부나 기관이 일정 기간의 수입과 지출 계획을 담아 의결 기관의 심사를 받기 위해 제출하는 안건을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/예산",
+    "category": "economy",
+    "categoryName": "경제"
+   }
   ]
  }
 }
