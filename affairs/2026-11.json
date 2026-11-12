@@ -565,6 +565,53 @@
     "category": "economy",
     "categoryName": "경제"
    }
+  ],
+  "2026-11-13": [
+   {
+    "term": "당론",
+    "reading": "",
+    "summary": "정당이 특정 사안에 대해 당원들이 따르도록 정한 공식적인 입장이나 방침을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/당론",
+    "category": "politics",
+    "categoryName": "정치"
+   },
+   {
+    "term": "Economies Of Scale",
+    "reading": "규모의 경제",
+    "summary": "생산량이 늘어날수록 제품 한 단위당 생산 비용이 줄어드는 경제 현상을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/규모의_경제",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "Rehabilitation",
+    "reading": "갱생",
+    "summary": "범죄자나 비행을 저지른 사람을 교육과 훈련을 통해 사회에 적응하도록 이끄는 일을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/교화_(사회)",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "순항미사일",
+    "reading": "",
+    "summary": "적의 주요 시설을 정밀 타격하기 위해 지형을 따라 낮게 비행하도록 만든 유도 미사일을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/순항_미사일",
+    "category": "world",
+    "categoryName": "국제"
+   },
+   {
+    "term": "극중극",
+    "reading": "",
+    "summary": "연극이나 영화 같은 작품 속에서 등장인물들이 또 다른 연극이나 영화를 하는 형식의 이야기를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/극중극",
+    "category": "culture",
+    "categoryName": "문화"
+   }
   ]
  }
 }
