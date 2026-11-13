@@ -612,6 +612,53 @@
     "category": "culture",
     "categoryName": "문화"
    }
+  ],
+  "2026-11-14": [
+   {
+    "term": "Hostile Takeover",
+    "reading": "적대적 인수합병",
+    "summary": "대상 기업의 경영진이나 이사회의 동의 없이 강제로 경영권을 확보하려는 인수합병 방식을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/공개매수",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "Entity List",
+    "reading": "엔티티 리스트",
+    "summary": "국가 안보 등의 이유로 특정 기업이나 단체와의 거래를 제한하기 위해 작성한 명단을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/거래_제한_목록",
+    "category": "politics",
+    "categoryName": "정치"
+   },
+   {
+    "term": "Pink Tax",
+    "reading": "핑크 택스",
+    "summary": "여성용 제품이 남성용 제품보다 더 비싸게 판매되는 현상을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/핑크_택스",
+    "category": "life",
+    "categoryName": "생활"
+   },
+   {
+    "term": "근로기준법",
+    "reading": "",
+    "summary": "근로 조건의 기준을 정하여 근로자의 기본적 생활을 보장하고 향상시키며 균형 있는 국민 경제의 발전을 꾀하기 위해 제정된 법률을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/근로기준법",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "탁발",
+    "reading": "",
+    "summary": "불교에서 승려가 수행의 일환으로 음식이나 시주물을 구하기 위해 집집마다 다니며 공양을 받는 행위를 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/탁발",
+    "category": "culture",
+    "categoryName": "문화"
+   }
   ]
  }
 }
