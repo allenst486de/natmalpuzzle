@@ -659,6 +659,53 @@
     "category": "culture",
     "categoryName": "문화"
    }
+  ],
+  "2026-11-15": [
+   {
+    "term": "Yang-Mills Theory",
+    "reading": "양-밀스 이론",
+    "summary": "게이지 이론의 일종으로, 기본 상호작용을 설명하기 위해 도입된 비가환 게이지 이론을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/양-밀스_이론",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "Biomarker",
+    "reading": "바이오마커",
+    "summary": "생물학적 상태나 질병의 진행 정도를 객관적으로 측정하고 평가할 수 있는 지표를 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/바이오마커",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "Nuclear Proliferation",
+    "reading": "핵 확산",
+    "summary": "핵무기나 그 제조 기술이 핵보유국 외의 국가나 집단으로 퍼지는 현상을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/핵확산",
+    "category": "politics",
+    "categoryName": "정치"
+   },
+   {
+    "term": "NHS",
+    "reading": "국민보건서비스",
+    "summary": "영국의 국가 보건 의료 서비스 체제로, 정부가 세금으로 운영하며 국민에게 무상 의료를 제공하는 제도이다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/국민_보건_서비스",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "암호화",
+    "reading": "",
+    "summary": "정보를 권한이 없는 제삼자가 읽을 수 없도록 특정한 알고리즘을 사용하여 암호문으로 변환하는 것을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/암호화",
+    "category": "it",
+    "categoryName": "IT"
+   }
   ]
  }
 }
