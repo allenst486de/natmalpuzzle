@@ -706,6 +706,53 @@
     "category": "it",
     "categoryName": "IT"
    }
+  ],
+  "2026-11-16": [
+   {
+    "term": "Eurovision Song Contest",
+    "reading": "유로비전 송 콘테스트",
+    "summary": "유럽 방송 연맹이 주관하는 국제 음악 경연 대회로, 유럽 각국 대표들이 참가하여 노래를 통해 경쟁하는 행사이다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/유로비전_송_콘테스트",
+    "category": "culture",
+    "categoryName": "문화"
+   },
+   {
+    "term": "Live Commerce",
+    "reading": "라이브커머스",
+    "summary": "실시간 동영상 스트리밍과 전자 상거래가 결합된 형태로, 판매자가 방송을 통해 상품을 소개하고 소비자가 즉시 구매하는 방식이다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/라이브_커머스",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "페이퍼컴퍼니",
+    "reading": "",
+    "summary": "실제 영업 활동을 하지 않으면서 서류상으로만 회사 형태를 갖춘 회사를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/페이퍼_컴퍼니",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "업무방해죄",
+    "reading": "",
+    "summary": "위계나 위력으로 사람의 업무를 방해해 처벌 대상이 되는 범죄를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/업무방해죄",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "코르티솔",
+    "reading": "",
+    "summary": "부신 겉질에서 분비되는 스테로이드 호르몬으로, 스트레스에 대응하고 신진대사를 조절하는 역할을 하는 물질을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/코르티솔",
+    "category": "science",
+    "categoryName": "과학"
+   }
   ]
  }
 }
