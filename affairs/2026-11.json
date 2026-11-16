@@ -753,6 +753,53 @@
     "category": "science",
     "categoryName": "과학"
    }
+  ],
+  "2026-11-17": [
+   {
+    "term": "재이온화",
+    "reading": "",
+    "summary": "중성 상태의 원자나 분자가 에너지를 얻어 다시 전자와 이온으로 분리되는 현상을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/재전리",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "집행유예",
+    "reading": "",
+    "summary": "법원이 형을 선고하면서 일정 기간 그 집행을 유보하고, 유예 기간을 무사히 보내면 형의 효력이 없어지게 하는 제도를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/집행유예",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "국정연설",
+    "reading": "",
+    "summary": "국가 원수가 의회나 국민을 상대로 나라의 정치 방향과 정책을 밝히는 연설을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/국정_연설",
+    "category": "politics",
+    "categoryName": "정치"
+   },
+   {
+    "term": "공판",
+    "reading": "",
+    "summary": "법원이 재판을 열어 사건을 심리하고 판결을 내리는 절차를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/공판",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "R&D",
+    "reading": "",
+    "summary": "연구개발(Research and Development)의 줄임말로, 새로운 지식이나 기술을 얻기 위해 수행하는 창조적 활동을 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/연구개발",
+    "category": "science",
+    "categoryName": "과학"
+   }
   ]
  }
 }
