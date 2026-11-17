@@ -800,6 +800,53 @@
     "category": "science",
     "categoryName": "과학"
    }
+  ],
+  "2026-11-18": [
+   {
+    "term": "Mockumentary",
+    "reading": "모큐멘터리",
+    "summary": "다큐멘터리의 형식을 빌려 허구의 내용을 사실처럼 연출한 영화나 드라마 장르를 말한다. 모의를 뜻하는 'Mock'과 'Documentary'의 합성어이다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/모큐멘터리",
+    "category": "culture",
+    "categoryName": "문화"
+   },
+   {
+    "term": "Fibula",
+    "reading": "피불라",
+    "summary": "고대에 망토나 옷을 여미는 데 쓰던 안전핀 모양의 금속 장식 단추를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/피불라",
+    "category": "culture",
+    "categoryName": "문화"
+   },
+   {
+    "term": "Dirty Bomb",
+    "reading": "더티밤",
+    "summary": "재래식 폭발물에 방사성 물질을 섞어 폭발할 때 방사능을 퍼뜨리도록 만든 무기를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/더러운_폭탄",
+    "category": "world",
+    "categoryName": "국제"
+   },
+   {
+    "term": "모더니즘",
+    "reading": "",
+    "summary": "19세기 말부터 20세기에 걸쳐 전통적 형식을 거부하고 새로운 표현과 실험을 추구한 예술·사상 운동을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/모더니즘",
+    "category": "culture",
+    "categoryName": "문화"
+   },
+   {
+    "term": "배출권 거래",
+    "reading": "",
+    "summary": "정부가 온실가스 배출 허용량을 정하고, 기업들이 남거나 부족한 배출권을 시장에서 사고팔 수 있게 하는 제도를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/배출권_거래제",
+    "category": "economy",
+    "categoryName": "경제"
+   }
   ]
  }
 }
