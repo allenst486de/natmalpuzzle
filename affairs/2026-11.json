@@ -847,6 +847,53 @@
     "category": "economy",
     "categoryName": "경제"
    }
+  ],
+  "2026-11-19": [
+   {
+    "term": "Subculture",
+    "reading": "서브컬처",
+    "summary": "전체 사회의 지배적인 문화와는 구별되는, 특정 집단이나 계층이 공유하는 독자적인 문화를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/하위문화",
+    "category": "culture",
+    "categoryName": "문화"
+   },
+   {
+    "term": "최혜국대우",
+    "reading": "",
+    "summary": "특정 국가가 다른 국가에 부여하는 가장 유리한 무역 조건을 다른 모든 협정국에게도 동일하게 적용하는 대우를 뜻한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/최혜국_대우",
+    "category": "economy",
+    "categoryName": "경제"
+   },
+   {
+    "term": "공소시효",
+    "reading": "",
+    "summary": "범죄 발생 후 일정 기간이 지나면 국가의 공소권을 소멸시켜 더 이상 기소할 수 없게 하는 제도이다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/공소시효",
+    "category": "society",
+    "categoryName": "사회"
+   },
+   {
+    "term": "Room-temperature superconductor",
+    "reading": "상온 초전도체",
+    "summary": "매우 낮은 온도가 아닌 일반적인 상온 상태에서도 전기 저항이 0이 되는 성질을 가진 초전도체를 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/상온_초전도체",
+    "category": "science",
+    "categoryName": "과학"
+   },
+   {
+    "term": "한중 FTA",
+    "reading": "",
+    "summary": "한국과 중국이 상품의 관세를 낮추거나 없애고 서비스 및 투자 시장을 개방하기 위해 체결한 자유 무역 협정을 말한다.",
+    "source": "위키백과",
+    "url": "https://ko.wikipedia.org/wiki/한중_자유_무역_협정",
+    "category": "economy",
+    "categoryName": "경제"
+   }
   ]
  }
 }
